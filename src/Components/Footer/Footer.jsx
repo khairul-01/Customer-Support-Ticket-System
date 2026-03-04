@@ -33,10 +33,10 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h6 className="footer-title">Social Links</h6>
-                    <a className="link link-hover"><i class="fa-brands fa-x-twitter"></i> CS - X Twitter</a>
-                    <a className="link link-hover"><i class="fa-brands fa-linkedin-in"></i> CS - LinkedIn</a>
-                    <a className="link link-hover"><i class="fa-brands fa-facebook-f"></i> CS Facebook</a>
-                    <a className="link link-hover"><i class="fa-solid fa-envelope"></i> CS - E-Mail</a>
+                    <a className="link link-hover"><i className="fa-brands fa-x-twitter"></i> CS - X Twitter</a>
+                    <a className="link link-hover"><i className="fa-brands fa-linkedin-in"></i> CS - LinkedIn</a>
+                    <a className="link link-hover"><i className="fa-brands fa-facebook-f"></i> CS Facebook</a>
+                    <a className="link link-hover"><i className="fa-solid fa-envelope"></i> CS - E-Mail</a>
                 </nav>
             </footer>
             <footer className="footer sm:footer-horizontal footer-center bg-neutral text-neutral-content border-base-300 border-t p-10">
