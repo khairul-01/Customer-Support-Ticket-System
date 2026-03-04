@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TKT-101",
+    "title": "Login Authentication Failure",
+    "description": "User unable to log in despite entering correct credentials.",
+    "customer": "Arif Ahmed",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-03-01"
+  },
+  {
+    "id": "TKT-102",
+    "title": "Payment Gateway Timeout",
+    "description": "Transactions are failing during the final processing stage.",
+    "customer": "Sarah Jenkins",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2024-03-01"
+  },
+  {
+    "id": "TKT-103",
+    "title": "Slow Dashboard Loading",
+    "description": "The main support dashboard takes too long to load.",
+    "customer": "Rakib Hasan",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-03-02"
+  },
+  {
+    "id": "TKT-104",
+    "title": "Profile Picture Upload Error",
+    "description": "Users getting error for valid JPG files.",
+    "customer": "Linda Vance",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2024-03-02"
+  },
+  {
+    "id": "TKT-105",
+    "title": "Database Connection Interrupted",
+    "description": "Occasional drop in connectivity affecting updates.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-03-03"
+  },
+  {
+    "id": "TKT-106",
+    "title": "Incorrect Invoice Amount",
+    "description": "Customer charged $50 instead of $30.",
+    "customer": "Farhana Yeasmin",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2024-03-03"
+  },
+  {
+    "id": "TKT-107",
+    "title": "API Documentation Link Broken",
+    "description": "The help link leads to a 404 page.",
+    "customer": "Michael Scott",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-03-04"
+  },
+  {
+    "id": "TKT-108",
+    "title": "Mobile App Crashing",
+    "description": "Android users reporting crashes on startup.",
+    "customer": "Tanvir Rahman",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2024-03-04"
+  },
+  {
+    "id": "TKT-109",
+    "title": "Email Notification Not Sent",
+    "description": "Verification emails not delivered to Outlook.",
+    "customer": "Emily Blunt",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-03-05"
+  },
+  {
+    "id": "TKT-110",
+    "title": "Dark Mode Toggle Bug",
+    "description": "Switching to dark mode resets form data.",
+    "customer": "Kevin Hart",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2024-03-05"
+  },
+  {
+    "id": "TKT-111",
+    "title": "Subscription Cancellation",
+    "description": "User wants to cancel but cannot find button.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2024-03-06"
+  },
+  {
+    "id": "TKT-112",
+    "title": "Broken CSS on Safari",
+    "description": "Buttons are overlapping in Safari version 15.4.",
+    "customer": "Steve Jobs",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-03-06"
+  }
+]
