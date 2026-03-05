@@ -1,12 +1,20 @@
 import React from 'react';
+// import { toast } from 'react-toastify';
+import Swal from 'sweetalert2';
 
-const TaskStatus = ({ticket}) => {
+const TaskStatus = ({ticket, csRemove, removeData}) => {
+    const handleRemove = () => {
+        csRemove(ticket)
+        removeData(ticket)
+        // toast(`${ticket.id} Resolved successfully`)
+        Swal.fire(`${ticket.id} Resolved successfully`);
+    }
     return (
         <div>
             <div className="card bg-base-100 card-md shadow-sm">
-                <div className="card-body">
+                <div className="card-body p-2">
                     <h2 className="card-title">{ticket.title}</h2>
-                    <button className="btn bg-[#02A53B]">Complete</button>
+                    <button onClick={handleRemove} className="btn bg-[#02A53B]">Complete</button>
 
                 </div>
             </div>

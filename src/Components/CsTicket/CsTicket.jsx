@@ -11,7 +11,7 @@ const CsTicket = ({ticket, ticketSelection}) => {
                 <div className="card-body p-2 sm:p-3">
                     <div className='flex flex-col sm:flex-row justify-between'>
                         <h2 className="card-title">{ticket.title}</h2>
-                        <div className="badge badge-accent"><i className="fa-solid fa-circle text-green-500"></i> Open</div>
+                        <div className={`badge ${ticket.status==="Pending"?'badge-accent':'badge-warning'} `}><i className={`fa-solid fa-circle ${ticket.status==="Pending"?'text-green-800':'text-yellow-800'}`}></i>{ticket.status} </div>
                     </div>
                     <p>{ticket.description}</p>
                     <div className="flex flex-col sm:flex-row justify-between">
